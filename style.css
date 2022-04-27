@@ -83,7 +83,7 @@ color: white;
 
 .nav-punkt:hover{
 background-color: rgba(252, 3, 3, 0.4);
-font-color: black;
+
 }
 
 .nav-punkt.aktiv{
@@ -250,9 +250,10 @@ footer{
 .footer-bottom{
 /*background: #000; */
 width: 70vw;
-padding: 10px;
-padding-bottom: 10px;
+padding: 0px;
+padding-bottom: 0px;
 text-align: center;
+padding-left: 5px;
 }
 
 .footer-bottom p{
@@ -270,4 +271,34 @@ text-align: center;
     /*text-transform: uppercase;*/
     opacity: .4;
     font-weight: 200;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.socials a i{
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color .4s ease;
+}
+
+.socials a:hover i{
+  color: aqua;
 }
