@@ -163,6 +163,7 @@ background-color: gray;
 body{
 padding: 50px;
 padding-top: 100px; 
+color: white;
 
 }
 
@@ -279,6 +280,7 @@ padding-left: 5px;
   align-items: center;
   justify-content: right;
   margin: 1rem 0 3rem 0;
+  
 }
 
 .socials li{
@@ -291,6 +293,7 @@ padding-left: 5px;
   border: 1.1px solid white;
   padding: 5px;
   border-radius: 50%;
+  
 }
 
 .socials a i{
