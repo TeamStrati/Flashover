@@ -10,3 +10,4 @@ function navigationUmschalten(){
 const navigationsLeiste = document.getElementById("hauptnavigation");
 navigationsLeiste.classList.toggle("navigation-geoeffnet");
 }
+
